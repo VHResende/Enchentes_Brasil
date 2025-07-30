@@ -1,45 +1,17 @@
 ![Fundo Linkedin_Ciência de Dados](https://github.com/user-attachments/assets/0aa9ee1f-9131-4f88-9f25-73b532d9b2f0)
 **Victor Resende**
 ________________
-# 🔫 Mapa da Violência contra as mulheres: homicídios por armas de fogo
-_______________
-### Análise Preditiva
-**Univariadas**
+# 🌊 Projeto autônomo sobre Enchentes no Brasil e seus impactos futuros
 _______________
 ### **📊📈Projeto Independente**
 
-Este é um problema de análise sobre a violência contra as mulheres no Brasil.
+O presente projeto tem como objetivo analisar a ocorrência de enchentes no Brasil entre 1991 e 2023, utilizando dados oficiais provenientes do Sistema Integrado de Informações sobre Desastres (S2iD). A proposta central é compreender a distribuição temporal, espacial e financeira dos eventos relacionados a enchentes, inundações e alagamentos, bem como projetar suas ocorrências futuras até o ano de 2093 por meio de técnicas de machine learning.
 
-Segundo o Comitê da [ONU](https://brasil.un.org/pt-br?afd_azwaf_tok=eyJhbGciOiJSUzI1NiJ9.eyJhdWQiOiJicmFzaWwudW4ub3JnIiwiZXhwIjoxNzQ3MDE2ODA2LCJpYXQiOjE3NDcwMTY3OTYsImlzcyI6InRpZXIxLTdiYzY5ZGY3Ny1qd3g1OSIsInN1YiI6IjE4OS44OS4yMjAuNTIiLCJkYXRhIjp7InR5cGUiOiJpc3N1ZWQiLCJyZWYiOiIyMDI1MDUxMlQwMjI2MzZaLXIxN2JjNjlkZjc3and4NTloQzFTQU8za3A0MDAwMDAwMDRhZzAwMDAwMDAwNzlmNCIsImIiOiJrd1NlZjY1Z1MtUloxaXg0Qm1ZNDMwRGlKcmNPLUxUYTFCSGNYaFdPZUc4IiwiaCI6Inp1d0QxQ0tkNkpxTEFaeENPQWlzYWVERXNVUWFDR0l2dTNNS1F2MUZiQUkifX0.appSwQU9OXG3w3iZVeXNABMCnMCptG4cXWINUFyf3FlJwUtm2y5yNf5LZmSENHgSrI991YEVD4GxszQAHT-SNYInUHk0IlxTe7CDKpp2-qAhtbJYXHUHP40dvV2AoXdOBI9g61E2pXP5tAnb_tiYZY3niNvwfivYSoPQm2ZvQOiEBLHivRj4vGL3iAUcyBwPJ5F8V8Ijsi65obeGHmTz5EuKvDZptRRn8KJhgFBcnFb9cQygSMXiB23gRsGAwwWd3zK89ykmfOt9LenZwXPlsFMjMVt2eRrdPo8bYZrUV6Bg5dpppSyBop7BkbY_NxvtIjLz7L96LnB8t_eDbnrzeQ.WF3obl2IDtqgvMFRqVdYkD5s) (Organização das Nações Unidas), sobre os Direitos das Crianças:
-
-"De acordo com o [Mapa da Violência](https://www.gov.br/mdh/pt-br/sdh/noticias/2015/maio/mapa-da-violencia-jovens-representam-mais-da-metade-das-mortes-por-armas-de-fogo), divulgado pelo Governo Federal em 2015, jovens entre 15 e 29 anos são as principais vítimas por armas de fogo no Brasil: no ano de 2012, por exemplo, 24.8882 pessoas nessa faixa etária morreram em decorrência de disparos de armas de fogo, o que corrensponde a 59% do número total de mortes causadas por esse motivo. Um relatório da ONU, elaborado em 2015 pelo Comitê para o Direito das Crianças, aponta que o Brasil apresenta umas das maiores taxas de homicídio infantil do mundo, sobretudo de jovens homens e negros. Afirma ainda que a vulnerabilidade de menores de baixa renda, socialmente marginalizados, está permitindo uma ampliação do número de crianças e também a violência policial, apontando que o alto número de execuções ilícitas por parte das polícias civil, militar e das milícias notavelmente se volta contra crianças moradoras de rua e de favelas durante operações militares e de "pacificação", entre outras".
-
-A partir do exposto acima, partimos para entender a condição das mulheres nesse mesmo quadro de violência envolvendo armas de fogo.
-
-Existem várias bases para análise da questão da violência no país, disponibilizado pelo [IPEA](https://www.ipea.gov.br/atlasviolencia/) (Instituto de Pesquisa Econômica Aplicada). Abaixo, as bases que foram utilizadas para este projeto:
-
-**1. Homicídios por armas de fogo**.
-
-Fonte: 🔗 [Atlas da Violência – Taxa de Homicídio de Mulheres por Armas de Fogo](https://www.ipea.gov.br/atlasviolencia/filtros-series).
-
-Nesse Dataset, temos uma série temporal que vai de 1989 a 2022. Nele, é possível verificar os homicídios de todos os estados brasileiros e suas respectivas cidades.
-
-Esse projeto se divide em 6 partes: 
-
-**1. Coleta e exploração dos dados:** aqui vamos explorar os dados de homicídios por arma de fogo nos estados e cidades brasileiras.
-
-**2. Tratamento dos dados:** para remoção de missings, dados inconsistentes e/ou incompletos.
-
-**3. Análise e visualiação dos dados:** para termos um panorama das principais cidades e estados com os dados sobre homicídios por armas de fogo. Comparando os dados, podemos extrair *insights* valiosos para pensar a questão da segurança das mulheres em nossa sociedade.
-
-**4. *Insights* gerais:** nesse último tópico procuramos extrair o quadro atual da situação brasileira, em termos de segurança das mulheres, e quais desdobramentos podemos sugerir para futuros projetos que ajudem na criação e manutenção de um Brasil mais seguro e sem violência contra as mulheres.
-
-**5. Análise para o estado de Minas Gerais:** por fim, fazemos uma análise comparativa com o estado de Minas Gerais, estado onde resido, atualmente.
-
-**6. Predição dos dados:** o modelo aqui é univariado (apenas com as taxas de homicídio ao longo do tempo). Fazemos um exercício de previsão para discutir sobre o aumento ou diminuição, para a próxima década, dos níveis de homicídio, tomando o estado de Minas Gerais como base. Apontamos, no final, os trabalhos futuros com outras fontes de dados para uma maior explanação do tema.
+A motivação para o estudo decorre da crescente frequência e intensidade de desastres naturais no país, muitas vezes agravados por mudanças climáticas, urbanização desordenada e fragilidade da infraestrutura urbana. O projeto visa apoiar decisões públicas, planejamento urbano e ações preventivas, oferecendo insights visualmente acessíveis por meio de mapas interativos, gráficos regionais e um painel interativo em Streamlit.
 _______________
 ## Implentações com Streamlit:
 
-[streamlit-app_enchentes_interativo-2025-07-29-17-07-40.webm]
+[streamlit-app_enchentes_interativo-2025-07-29-17-07-40.webm](https://github.com/user-attachments/assets/458e2edf-40cd-40e4-86b5-b67463234c39)
+
 ______
 📊 **by Victor Resende**
