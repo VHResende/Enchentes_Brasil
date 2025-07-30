@@ -40,6 +40,6 @@ Esse projeto se divide em 6 partes:
 _______________
 ## Implentações com Streamlit:
 
-_________[streamlit-app_enchentes_interativo-2025-07-29-17-07-40.webm](https://github.com/user-attachments/assets/4a67aaf6-439a-47b0-996e-77a23e2dacb3)
+[streamlit-app_enchentes_interativo-2025-07-29-17-07-40.webm]
 ______
 📊 **by Victor Resende**
